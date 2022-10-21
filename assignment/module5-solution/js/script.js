@@ -325,7 +325,6 @@ function insertItemPrice(html,
   return html;
 }
 
-
 // Appends portion name in parens if it exists
 function insertItemPortionName(html,
                                portionPropName,
@@ -339,9 +338,6 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
-
-
 global.$dc = dc;
 
 })(window);
-
